@@ -1,6 +1,6 @@
 
 import {testTime} from "./TestTime";
-//import uniq from 'lodash/uniq';
+//import _ from 'lodash';
 
 class Unique {
     @testTime
@@ -68,7 +68,7 @@ class Unique {
 
     // @testTime
     // public uniqueLodash(array: Array<any>): Array<any> {
-    //     return uniq(array);
+    //     return _.uniq(array);
     // }
 }
 

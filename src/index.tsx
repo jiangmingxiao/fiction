@@ -16,6 +16,7 @@ class App extends React.PureComponent<any, any> {
         unique.unique1(this.array);
         unique.unique2(this.array);
         unique.unique3(this.array);
+        //unique.uniqueLodash(this.array);
     }
 
     getRandomNum(min: number, max: number): number {
