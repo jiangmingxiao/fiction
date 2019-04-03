@@ -1,6 +1,6 @@
 
 import {testTime} from "./TestTime";
-//import _ from 'lodash';
+import * as _ from 'lodash';
 
 class Unique {
     @testTime
@@ -66,10 +66,10 @@ class Unique {
         return tempArray;
     }
 
-    // @testTime
-    // public uniqueLodash(array: Array<any>): Array<any> {
-    //     return _.uniq(array);
-    // }
+    @testTime
+    public uniqueLodash(array: Array<any>): Array<any> {
+        return _.uniq(array);
+    }
 }
 
 export default new Unique()
